@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="console example messaging">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/MeteoServer.java" afterDir="false" />
+    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="Create buttons start / stop server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/ControllerServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/ControllerServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxmlServer/ServerFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxmlServer/ServerFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServerDemoSocket/ControllerServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServerDemoSocket/ControllerServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,17 +231,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -298,6 +281,7 @@
       <workItem from="1622844481781" duration="270000" />
       <workItem from="1622844805765" duration="5119000" />
       <workItem from="1622853234995" duration="3661000" />
+      <workItem from="1622908431079" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="create a project structure in maven">
       <created>1622846929466</created>
@@ -362,6 +346,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
