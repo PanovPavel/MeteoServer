@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="update Client.xml gue" />
+    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="add controller in Client.xml">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxmlClient/ClientFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxmlClient/ClientFXML.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +283,7 @@
       <workItem from="1622844805765" duration="5119000" />
       <workItem from="1622853234995" duration="3661000" />
       <workItem from="1622908431079" duration="1324000" />
-      <workItem from="1622934461040" duration="448000" />
+      <workItem from="1622934461040" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="create a project structure in maven">
       <created>1622846929466</created>
@@ -302,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622934772302</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add controller in Client.xml">
+      <created>1622935011457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622935011457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -385,7 +396,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="create a project structure in maven" />
     <MESSAGE value="update Client.xml gue" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Client.xml gue" />
+    <MESSAGE value="add controller in Client.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controller in Client.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

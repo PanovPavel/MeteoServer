@@ -4,8 +4,14 @@ import java.net.Socket;
 
 public class ControllerClient {
     public void initialize(){
-        Client client = new Client(4000);
-
+        Thread thread = new Thread(runnable);
+        thread.start();
     }
+    Runnable runnable = new Runnable() {
+        public void run() {
+                Client client = new Client(4000);
+        }
+    };
+
 
 }
