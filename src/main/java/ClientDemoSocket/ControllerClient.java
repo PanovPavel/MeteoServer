@@ -3,17 +3,11 @@ import java.io.*;
 import java.net.Socket;
 
 public class ControllerClient {
-    private static Socket clientSocket; //сокет для общения
-    private static BufferedReader reader; // нам нужен ридер читающий с консоли, иначе как
-    // мы узнаем что хочет сказать клиент?
-    private static BufferedReader in; // поток чтения из сокета
-    private static BufferedWriter out; // поток записи в сокет
-
-    public void initialize(){
+    /*public void initialize(){
         try {
             try {
                 // адрес - локальный хост, порт - 4004, такой же как у сервера
-                clientSocket = new Socket("localhost", 4004); // этой строкой мы запрашиваем
+                clientSocket = new Socket("localhost", 0); // этой строкой мы запрашиваем
                 //  у сервера доступ на соединение
                 reader = new BufferedReader(new InputStreamReader(System.in));
                 // читать соообщения с сервера
@@ -40,5 +34,9 @@ public class ControllerClient {
         } catch (IOException e) {
             System.err.println(e);
         }
+    }*/
+    public void initialize(){
+        Client client = new Client(4000);
     }
+
 }
