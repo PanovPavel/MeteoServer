@@ -25,7 +25,6 @@ public class MeteoServer {
         try {
             server = new ServerSocket(PortServerSocket);
             System.out.println("Сервер запущен!"); // хорошо бы серверу
-            clientSocket = server.accept(); // accept() будет ждать пока кто-нибудь не захочет подключиться
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -40,6 +39,7 @@ public class MeteoServer {
     }
     public void run(){
         try {
+            clientSocket = server.accept(); // accept() будет ждать пока кто-нибудь не захочет подключиться
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             String CityNameIn = in.readLine();//сообщение от клиента
             out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
@@ -52,7 +52,6 @@ public class MeteoServer {
         }
         finally {
             try {
-                clientSocket.close();
                 System.out.println("Сервер остановлен");
                 out.close();
                 in.close();
