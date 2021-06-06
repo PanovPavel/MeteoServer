@@ -65,6 +65,13 @@ public class MeteoServer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        finally {
+            try {
+                clientSocket.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 }

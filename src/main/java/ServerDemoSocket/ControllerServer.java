@@ -6,8 +6,7 @@ public class ControllerServer {
     MeteoServer meteoServer;
     Thread thread;
     public void stopButton(ActionEvent actionEvent) {
-        System.out.println("sad");
-        thread.interrupt();
+        thread.stop();
         meteoServer.stop();
     }
 
