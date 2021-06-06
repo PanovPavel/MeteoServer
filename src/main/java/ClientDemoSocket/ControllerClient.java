@@ -13,8 +13,7 @@ public class ControllerClient {
     public void send(ActionEvent actionEvent) {
         Client client = new Client(4001);
         try {
-            client.changeMessageWithServer(textFieldCity.getText());
-
+            textFieldTemp.setText(client.changeMessageWithServer(textFieldCity.getText()));
         } catch (IOException e) {
             e.printStackTrace();
         }

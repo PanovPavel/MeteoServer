@@ -4,25 +4,21 @@ import java.io.*;
 import java.net.Socket;
 
 public class Client {
-    private static Socket clientSocket; //сокет для общения
-    private static BufferedReader reader; // нам нужен ридер читающий с консоли, иначе как
-    // мы узнаем что хочет сказать клиент?
-    private static BufferedReader in; // поток чтения из сокета
-    private static BufferedWriter out; // поток записи в сокет
+    private static Socket clientSocket;
+    private static BufferedReader reader;
+    private static BufferedReader in;
+    private static BufferedWriter out;
 
-    public void changeMessageWithServer(String city) throws IOException {
-        // читать соообщения с сервера
+    public String changeMessageWithServer(String city) throws IOException {
         in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-        // писать туда же
         out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 
-        String word = city; // ждём пока клиент что-нибудь
-        // не напишет в консоль
-        out.write(word + "\n"); // отправляем сообщение на сервер
+        String word = city;
+        out.write(word + "\n");
         out.flush();
-        String serverWord = in.readLine(); // ждём, что скажет сервер
-        System.out.println(serverWord); // получив - выводим на экран
-
+        String serverWord = in.readLine();
+        System.out.println(serverWord);
+        return serverWord;
     }
     public void closeConnect(){
         try {
@@ -36,7 +32,7 @@ public class Client {
     public Client(int ClientSocket){
         try {
             clientSocket = new Socket("localhost", ClientSocket);
-            reader = new BufferedReader(new InputStreamReader(System.in));/*Запрос соединения*/
+            reader = new BufferedReader(new InputStreamReader(System.in));
         } catch (IOException e) {
             e.printStackTrace();
         }
