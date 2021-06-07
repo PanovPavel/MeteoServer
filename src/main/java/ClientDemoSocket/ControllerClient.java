@@ -12,7 +12,7 @@ public class ControllerClient {
     public void send(ActionEvent actionEvent) {
         Client client = new Client(4001);
         try {
-            textFieldTemp.setText(client.changeMessageWithServer(textFieldCity.getText()));
+            textFieldTemp.setText("Температура = " + client.changeMessageWithServer(textFieldCity.getText()));
         } catch (IOException e) {
             e.printStackTrace();
         }

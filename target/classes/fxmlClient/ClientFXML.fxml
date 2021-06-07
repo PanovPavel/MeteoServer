@@ -7,9 +7,9 @@
    <children>
       <VBox prefHeight="400.0" prefWidth="602.0">
          <children>
-            <TextField fx:id="textFieldCity" text="City" />
-            <Button fx:id="send" mnemonicParsing="false" onAction="#send" prefHeight="25.0" prefWidth="698.0" text="Button" />
-            <TextField fx:id="textFieldTemp" text="Temp" />
+            <TextField fx:id="textFieldCity" text="Город" />
+            <Button fx:id="send" mnemonicParsing="false" onAction="#send" prefHeight="25.0" prefWidth="698.0" text="Узнать температуру" />
+            <TextField fx:id="textFieldTemp" text="Температура" />
          </children>
       </VBox>
    </children>

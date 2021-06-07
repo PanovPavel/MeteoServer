@@ -18,3 +18,19 @@ INFO: The server is waiting for the client to connect
 INFO: server stopped
 июн 07, 2021 11:48:55 PM ServerDemoSocket.MeteoServer stop
 INFO: BufferedReader stoped
+июн 07, 2021 11:55:10 PM ServerDemoSocket.MeteoServer <init>
+INFO: Server running + port4001
+июн 07, 2021 11:55:10 PM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 07, 2021 11:55:58 PM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 07, 2021 11:55:58 PM ServerDemoSocket.MeteoServer run
+INFO: The server received the request Липецк
+июн 07, 2021 11:55:58 PM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 07, 2021 11:57:00 PM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 07, 2021 11:57:00 PM ServerDemoSocket.MeteoServer run
+INFO: The server received the request city
+июн 07, 2021 11:57:00 PM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
