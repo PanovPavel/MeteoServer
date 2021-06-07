@@ -1,7 +1,6 @@
 package ClientDemoSocket;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-
 import java.awt.*;
 import java.io.*;
 import java.net.Socket;

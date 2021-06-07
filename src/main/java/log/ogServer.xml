@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T23:39:39</date>
+  <millis>1623098379355</millis>
+  <sequence>0</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>Сервер запущен + порт4001</message>
+</record>
+<record>
+  <date>2021-06-07T23:39:39</date>
+  <millis>1623098379358</millis>
+  <sequence>1</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>Сервер ожидает подключения клиента</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T23:39:53</date>
+  <millis>1623098393495</millis>
+  <sequence>0</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>Сервер запущен + порт4001</message>
+</record>
+<record>
+  <date>2021-06-07T23:39:53</date>
+  <millis>1623098393499</millis>
+  <sequence>1</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>Сервер ожидает подключения клиента</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T23:40:47</date>
+  <millis>1623098447457</millis>
+  <sequence>0</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>Сервер запущен + порт4001</message>
+</record>
+<record>
+  <date>2021-06-07T23:40:47</date>
+  <millis>1623098447462</millis>
+  <sequence>1</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>Сервер ожидает подключения клиента</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T23:43:02</date>
+  <millis>1623098582991</millis>
+  <sequence>0</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>Server running + port4001</message>
+</record>
+<record>
+  <date>2021-06-07T23:43:02</date>
+  <millis>1623098582996</millis>
+  <sequence>1</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:14</date>
+  <millis>1623098654882</millis>
+  <sequence>2</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server received the requestCity</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:14</date>
+  <millis>1623098654885</millis>
+  <sequence>3</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>server responsejava.io.BufferedWriter@321b2be</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:14</date>
+  <millis>1623098654887</millis>
+  <sequence>4</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:18</date>
+  <millis>1623098658709</millis>
+  <sequence>5</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server received the requestЛипецк</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:18</date>
+  <millis>1623098658711</millis>
+  <sequence>6</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>server responsejava.io.BufferedWriter@7f8e796a</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:18</date>
+  <millis>1623098658713</millis>
+  <sequence>7</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:21</date>
+  <millis>1623098661996</millis>
+  <sequence>8</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server received the requestКиев</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:21</date>
+  <millis>1623098661998</millis>
+  <sequence>9</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>server responsejava.io.BufferedWriter@13384bcb</message>
+</record>
+<record>
+  <date>2021-06-07T23:44:21</date>
+  <millis>1623098661999</millis>
+  <sequence>10</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-06-07T23:48:37</date>
+  <millis>1623098917650</millis>
+  <sequence>0</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>Server running + port4001</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:37</date>
+  <millis>1623098917653</millis>
+  <sequence>1</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:47</date>
+  <millis>1623098927844</millis>
+  <sequence>2</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>the client is connected</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:47</date>
+  <millis>1623098927846</millis>
+  <sequence>3</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server received the request City</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:47</date>
+  <millis>1623098927849</millis>
+  <sequence>4</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:52</date>
+  <millis>1623098932373</millis>
+  <sequence>5</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>the client is connected</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:52</date>
+  <millis>1623098932374</millis>
+  <sequence>6</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server received the request Липецк</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:52</date>
+  <millis>1623098932376</millis>
+  <sequence>7</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>The server is waiting for the client to connect</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:55</date>
+  <millis>1623098935176</millis>
+  <sequence>8</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>stop</method>
+  <thread>14</thread>
+  <message>server stopped</message>
+</record>
+<record>
+  <date>2021-06-07T23:48:55</date>
+  <millis>1623098935178</millis>
+  <sequence>9</sequence>
+  <logger>ServerDemoSocket.MeteoServer</logger>
+  <level>INFO</level>
+  <class>ServerDemoSocket.MeteoServer</class>
+  <method>stop</method>
+  <thread>14</thread>
+  <message>BufferedReader stoped</message>
+</record>

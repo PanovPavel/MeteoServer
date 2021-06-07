@@ -2,6 +2,8 @@ package ClientDemoSocket;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 public class Client {
     private static Socket clientSocket;
