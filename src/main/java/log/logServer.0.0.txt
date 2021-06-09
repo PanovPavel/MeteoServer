@@ -34,3 +34,41 @@ INFO: the client is connected
 INFO: The server received the request city
 июн 07, 2021 11:57:00 PM ServerDemoSocket.MeteoServer run
 INFO: The server is waiting for the client to connect
+июн 09, 2021 3:57:04 AM ServerDemoSocket.MeteoServer <init>
+INFO: Server running + port4001
+июн 09, 2021 3:57:04 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:57:14 AM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 09, 2021 3:57:14 AM ServerDemoSocket.MeteoServer run
+INFO: The server received the request Город
+июн 09, 2021 3:57:14 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:57:21 AM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 09, 2021 3:57:21 AM ServerDemoSocket.MeteoServer run
+INFO: The server received the request Липецк
+июн 09, 2021 3:57:21 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:58:27 AM ServerDemoSocket.MeteoServer <init>
+INFO: Server running + port4001
+июн 09, 2021 3:58:27 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:58:37 AM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 09, 2021 3:58:37 AM ServerDemoSocket.MeteoServer run
+INFO: The server received the request Город
+июн 09, 2021 3:58:37 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:58:41 AM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 09, 2021 3:58:41 AM ServerDemoSocket.MeteoServer run
+INFO: The server received the request Липецк
+июн 09, 2021 3:58:41 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect
+июн 09, 2021 3:58:43 AM ServerDemoSocket.MeteoServer run
+INFO: the client is connected
+июн 09, 2021 3:58:43 AM ServerDemoSocket.MeteoServer run
+INFO: The server received the request фыв
+июн 09, 2021 3:58:43 AM ServerDemoSocket.MeteoServer run
+INFO: The server is waiting for the client to connect

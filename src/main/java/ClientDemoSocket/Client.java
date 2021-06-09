@@ -11,13 +11,23 @@ public class Client {
     private static BufferedReader in;
     private static BufferedWriter out;
 
-    public String changeMessageWithServer(String city) throws IOException {
-        in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+    /**
+     * Отправка названия города на сервер
+     * @param city название города
+     */
+    public void sendCityOnServer(String city) throws IOException{
         out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
-
-        String word = city;
-        out.write(word + "\n");
+        out.write(city + "\n");
         out.flush();
+    }
+
+    /**
+     * Получить ответ с сервера
+     * @return ответ сервера на запрос
+     * @throws IOException
+     */
+    public  String receiveAnswerWithServer() throws IOException {
+        in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         String serverWord = in.readLine();
         System.out.println(serverWord);
         return serverWord;

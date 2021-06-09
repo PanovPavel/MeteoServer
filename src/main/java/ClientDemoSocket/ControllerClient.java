@@ -12,12 +12,19 @@ public class ControllerClient {
     public void send(ActionEvent actionEvent) {
         Client client = new Client(4001);
         try {
-            textFieldTemp.setText("Температура = " + client.changeMessageWithServer(textFieldCity.getText()));
+            /**
+             * Отправить название города на сервер
+             */
+            client.sendCityOnServer(textFieldCity.getText());
+            /**
+             * Получить ответ сервера
+             */
+            textFieldTemp.setText("Температура = " + client.receiveAnswerWithServer());
         } catch (IOException e) {
             e.printStackTrace();
         }
         finally {
-            client.closeConnect();
+           client.closeConnect();
         }
     }
 }
