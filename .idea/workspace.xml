@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="add logger">
+    <list default="true" id="cf52cfd5-027b-484f-8732-84a6c1670aaa" name="Default Changelist" comment="delete logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/Client.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/log/logServer.0.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/log/logServer.0.0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/log/ogServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/log/ogServer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/ControllerServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/ControllerServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerDemoSocket/MeteoServer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ClientDemoSocket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientDemoSocket/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientDemoSocket/ControllerClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ServerDemoSocket/ControllerServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServerDemoSocket/ControllerServer$1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,19 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/meteoServer2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="test" />
@@ -83,6 +96,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/ClientDemoSocket/ControllerClient.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -159,6 +175,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/fxml/hello.fxml" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -273,6 +290,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainClient" />
+      <item itemvalue="Application.MainServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClient" />
@@ -399,7 +421,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/meteoServer2" />
                       </list>
                     </value>
                   </entry>
@@ -415,6 +437,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/meteoServer2" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="HEAD" />
@@ -442,6 +469,11 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ServerSocket$MainClient.ic" NAME="MainClient Coverage Results" MODIFIED="1624267934743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ClientDemoSocket.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
